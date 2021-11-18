@@ -1,0 +1,359 @@
+.wrap{
+width: 1440px;
+    min-height: 400px;
+   
+    margin: 0 auto;
+}
+
+.menu{
+
+    height: 66px;
+    display: flex;
+    border-bottom: 2px solid #c4c4c4;
+    box-sizing: border-box;
+}
+
+.menu-left{
+width: 720px;
+height: 66px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu-left > a {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.menu-left a:hover{
+  font-weight: bold;
+}
+
+.menu-right{
+width: 720px;
+height: 66px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu-right > a {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: silver;
+    transition: 300ms;
+}
+
+.menu-right a:hover{
+    color: #30abae;
+}
+
+
+.carousel-caption > h5 {
+color: #000;
+font-size: 60px;
+}
+
+.places-box{
+    min-height: 400px;
+   
+    margin-top: 90px;
+}
+
+.places-box > h2{
+    height: 50px;
+    text-align: center;
+
+}
+
+.places{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.place{
+    width: 342px;
+}
+.place h3{
+margin: 16px 0 26px 0;
+text-align: center;
+
+}
+.place p{
+box-sizing: border-box;
+border-left: 2px solid #ed8651;
+padding-left: 23px;
+text-align: justify;
+}
+
+.footer{
+    height: 90px;
+    background: #16595a;
+}
+
+    
+
+ 
+.bground{
+    position: absolute;
+    background: #F2F5F1;
+    width: 693px;
+    height: 656px;
+    top: 155px;
+   
+
+}
+
+.header_BLOG > h1{
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 72px;
+    margin-top: 34px;
+    margin-left: 207px;
+    z-index: 1;
+ 
+}
+.categories{
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 245px;
+    display: block;
+
+}
+
+.buttons{
+    display: block;
+    justify-content: center;
+    width: 210px;
+    height: 429px;
+}
+
+.buttons > button {
+ width: inherit;
+ height: 20px;
+   margin: 10px;
+   padding-left: 20px;
+   padding-bottom: 3px;
+   line-height: 13px;
+   background-color: #F2F5F1;
+   text-align: justify;
+   font-size: 14px;
+ border-radius: 50px;
+ border: 1px solid #E4E4E4;
+}
+
+.buttons > button:hover{
+    border: 2px solid #30abae;
+    background-color: #E4E4E4;
+}
+
+.buttons > p {
+  
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+
+.buttons > p:hover{
+color: #30abae;
+}
+
+.upperblogs{
+ 
+    display: flex;
+    justify-content: end;
+    margin-top: 295px;
+  
+    margin-left: auto;
+    margin-right: 139px;
+   
+  
+}
+
+
+.blog{
+    width: 295px;
+    z-index: 1;
+ margin-right: 69px;
+}
+.blog > h3 {
+margin: 16px 0 26px 0;
+text-align: center;
+
+}
+.blog > p{
+box-sizing: border-box;
+border-top: 2px solid #ed8651;
+padding-top: 29px;
+text-align: justify;
+}
+.blog > h6{
+    cursor: pointer;
+   text-align: end;
+}
+.blog > h6:hover{
+    color: #30abae;
+
+}
+
+.lowerblogs{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 139px;
+    margin-top: 95px;
+    margin-bottom: 79px;
+}
+
+.pagelist > a {
+    text-decoration: none;
+    color: #aaaaaa
+}
+.pagelist > a:hover{
+    color: #aaaaaa;
+    font-weight: bold;
+}
+i:hover {
+    color: #30abae;
+}
+.pagelist {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 47px;
+    justify-content: center;
+    height: 115px;
+    background: #F2F5F1;
+}
+
+
+.footer{
+    height: 90px;
+    background: #16595a;
+
+}
+
+.grayHeader {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 64px;
+    margin-left: 467px;
+    color: #C4C4C4;
+    z-index: 1;
+
+}
+
+
+.bground3{
+   
+    position: absolute;
+    background: #F2F5F1;
+    width: 918px;
+    height: 742px;
+    top: 155px; 
+    z-index: -1;
+}
+.content{
+    display: flex;
+    margin-top: 208px;
+
+}
+.RandomText{
+    text-align: inherit;
+    margin-left: 202px;
+    margin-right: 87px;
+    margin-top: 21px;
+}
+.RandomText h6{
+    margin-top: 40px;
+}
+
+  .RandomText a{
+      margin-top: 40px;
+      text-decoration: none;
+      color: #000;
+
+  }
+  .RandomText a:hover{
+      cursor: pointer;
+      color: #30abae;
+  }
+
+  .img {
+      margin-bottom: 116px;
+  }
+  /*fourth page*/
+ 
+
+  .contacts {
+      position: relative;
+
+margin-top: 258px;
+
+display: grid;
+justify-content: center;
+
+
+  }
+
+  .inf  {
+      width: 505px;
+      height: 54px;
+      margin-bottom: 21px;
+      font-size: 18px;
+      padding-left: 21px;
+     background: transparent;
+      border: 1px solid #C4C4C4;
+   
+      
+  }
+  .inf:hover{
+      border-color:#30abae ;
+  }
+ 
+  
+  .message{
+      padding-bottom: 100px;
+    width: 505px;
+    height: 154px;
+    
+    font-size: 18px;
+
+    padding-left: 21px;
+   background: transparent;
+    border: 1px solid #C4C4C4;
+   
+  }
+  .message:hover{
+    border-color:#30abae ;
+}
+.contacts > button{
+    
+    outline: none;
+    margin-top: 54px;
+   
+    width: 295px;
+    height: 55px;
+   display: block;
+   background: transparent;
+   border: 1px solid #C4C4C4;
+ color: #808080;
+ border-radius: 3px;
+margin: 54px auto 0;
+
+ 
+ 
+}
+.contacts > button:hover{
+    background-color:#30abae ;
+    color:#Fff;
+}
